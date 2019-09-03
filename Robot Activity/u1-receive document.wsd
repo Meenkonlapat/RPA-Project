@@ -1,0 +1,14 @@
+@startuml
+|Robot|
+start
+:หาไฟล์ข้อมูลในคอมพิวเตอร์;
+if(มีไฟล์ข้อมูลไหม?) then(มี)
+|System|
+:แสดงที่อยู่ไฟล์ข้อมูล;
+stop
+else(ไม่มี)
+|Robot|
+end
+endif
+
+@enduml

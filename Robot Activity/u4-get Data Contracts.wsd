@@ -1,0 +1,16 @@
+@startuml
+|Robot|
+start
+:เลือกไฟล์ Excel;
+if (มีข้อมูลใน Excel ไหม?) then (มี)
+    : เก็บข้อมูลใน Excel;
+    : ส่งข้อมูลเข้าระบบ;
+|System|
+    : รับค่าข้อมูล;
+else (ไม่มี)
+|Robot|    
+    end
+|System|
+endif
+stop
+@enduml

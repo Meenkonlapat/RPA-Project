@@ -1,0 +1,14 @@
+@startuml
+|Robot|
+start
+:เปิด Application PPMS;
+|System|
+:ปรากฎหน้าต่าง PPMG;
+|Robot|
+:คลิกที่ช่อง Search;
+:ใส่เลขข้อมูลลงไปใน ช่อง Search;
+:คลิก Filter;
+|System|
+:แสดง Project ที่ค้นหา; 
+stop
+@enduml
