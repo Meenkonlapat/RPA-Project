@@ -3,7 +3,7 @@
 start
 :เปิดไฟล์ Excel;
 |System|
-:แสดงหน้าต่าง Excel;
+:แสดงหน้าต่าง Excel>
 |Robot|
 :อ่านข้อมูลใน Excel;
 stop

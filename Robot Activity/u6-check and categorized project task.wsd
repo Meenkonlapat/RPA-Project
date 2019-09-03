@@ -2,13 +2,13 @@
 |Robot|
 |System|
 start
-:แสดงหน้าต่าง worksheet;
+:แสดงหน้าต่าง worksheet>
 |Robot|
 :คลิกเลือก Task;
 :คลิกที่ Icon New Task;
 |System|
-:แสดง task ที่เพิ่มมาด้านล่าง Task ที่เลือก;
-:ปรากฎ text input ใน Task ที่เลือก;
+:แสดง task ที่เพิ่มมาด้านล่าง Task ที่เลือก>
+:ปรากฎ text input ใน Task ที่เลือก>
 |Robot|
 :กรอกชื่อที่ได้มาจาก resource <
 :กด Enter;

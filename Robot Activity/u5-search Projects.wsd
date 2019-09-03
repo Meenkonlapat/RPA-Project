@@ -3,12 +3,18 @@
 start
 :เปิด Application PPMS;
 |System|
-:ปรากฎหน้าต่าง PPMG;
+:ปรากฎหน้าต่าง PPMG>
 |Robot|
 :คลิกที่ช่อง Search;
-:ใส่เลขข้อมูลลงไปใน ช่อง Search;
+:ใส่เลขข้อมูลลงไปใน ช่อง Search<
 :คลิก Filter;
+if(หาเจอไหม?) then (เจอ)
 |System|
-:แสดง Project ที่ค้นหา; 
+:แสดง Project ที่ค้นหา>
+else(ไม่เจอ)
+|Robot|
+end
+|System|
+endif
 stop
 @enduml
