@@ -1,0 +1,11 @@
+@startuml
+|User|
+|System|
+start
+|System|
+:ปรากฎ List Templete>
+|User|
+:คลิกขวาที่ Templete ที่เลือก;
+:เลือก Create Project;
+stop
+@enduml

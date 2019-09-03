@@ -1,0 +1,16 @@
+@startuml
+|User|
+start
+:เปิด Application PPMS;
+|System|
+:ปรากฎหน้าต่าง PPMS>
+|User|
+:คลิกที่แถบ General;
+:เลือก Project;
+:คลิกที่ช่องค้นหา;
+:พิมพ์ว่า "Template"
+:คลิก Filter;
+|System|
+:ปรากฎ List ของ Template>
+stop
+@enduml

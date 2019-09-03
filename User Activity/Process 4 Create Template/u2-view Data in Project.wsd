@@ -1,0 +1,11 @@
+@startuml
+|User|
+|System|
+start
+:แสดง List Project ในหน้า Project>
+|User|
+:คลิกซ้ายที่โปรเจค;
+|System|
+:แสดง Project Profile>
+stop
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+|User|
+|System|
+start
+:แสดง Project Template Create>
+|User|
+:กรอกข้อมูลจากหน้า Project Profile<
+:กด Save;
+stop
+@enduml
