@@ -2,12 +2,12 @@
 |Robot|
 start
 :เลือกไฟล์ Excel;
-if (มีข้อมูลใน Excel ไหม?) then (มี)
+if (เช็คข้อมูลว่าตรงตาม Pattern ไหม?) then (ตรง)
     : เก็บข้อมูลใน Excel;
     : ส่งข้อมูลเข้าระบบ;
 |System|
     : รับค่าข้อมูล;
-else (ไม่มี)
+else (ไม่ตรง)
 |Robot|    
     end
 |System|

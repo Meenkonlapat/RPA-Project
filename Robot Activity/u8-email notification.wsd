@@ -1,9 +1,9 @@
 @startuml
 |Robot|
 start
-:ดึงข้อมูล Status Exception;
-|System|
 :ส่งข้อมูล Status Exception;
+|System|
+:ดึงข้อมูล Status Exception;
 |Robot|
 if(Status Check) then (Success)
 :แจ้งเตือนไปยัง Email ว่า "RPA Error";
