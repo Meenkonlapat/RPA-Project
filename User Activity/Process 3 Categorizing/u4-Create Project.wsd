@@ -13,5 +13,10 @@ start
 :คลิก Filter;
 |System|
 :ปรากฎ SO. Item ที่ต้องการจะ Create Project>
+|User|
+:คลิกที่ไฟล์ SAP Client GT;
+:คลิกที่ SO. Item;
+:คลิกที่ปุ่ม Action ทางด้านขวา;
+:เลือก Create Contracts;
 stop
 @enduml
