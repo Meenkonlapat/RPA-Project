@@ -1,0 +1,17 @@
+@startuml
+|User|
+|System|
+start
+:แสดงหน้า PPMS>
+|User|
+:คลิกที่แถบเมนู Service;
+:เลือก Contracts;
+|System|
+:ปรากฎไฟล์ Client(SO. Item) ที่มาจาก SAP>
+|User|
+:ใส่เลข SO. ที่ช่อง Search <
+:คลิก Filter;
+|System|
+:ปรากฎ SO. Item ที่ต้องการจะ Create Project>
+stop
+@enduml

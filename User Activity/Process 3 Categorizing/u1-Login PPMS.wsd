@@ -1,0 +1,25 @@
+@startuml
+|User|
+start
+:เปิด Browser Aplication;
+:ใส่ Url;
+|System|
+:แสดงหน้า Web Broswer>
+|User|
+:คลิกที่ E-applications;
+|System|
+:แสดงหน้า E-application>
+|User|
+:เลือก PPMS;
+|System|
+:แสดงหน้า Login>
+|User|
+repeat
+:กรอก Username & Password;
+:คลิก Login;
+repeat while (เช็ค ข้อมูล) is (ไม่ถูกต้อง)
+->ถูกต้อง;
+|System|
+:แสดงหน้า Aplication PPMS>
+stop
+@enduml
