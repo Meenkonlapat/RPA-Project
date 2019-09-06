@@ -1,14 +1,23 @@
 @startuml
 |Robot|
 start
-:หาไฟล์ข้อมูลในคอมพิวเตอร์;
-if(มีไฟล์ข้อมูลไหม?) then(มี)
+:หาที่อยู่ข้อมูลในคอมพิวเตอร์;
+if(มีไฟล์ที่อยู่ข้อมูลไหม?) then(มี) 
 |System|
 :แสดงที่อยู่ไฟล์ข้อมูล>
+|Robot|
+if(มีไฟล์ Excel(.xlxs) ไหม) then(มี)
+if(มีเลข SO ไหม?) then(มี)
+|System|
+:เก็บค่าเลข SO;
 stop
-else(ไม่มี)
+|Robot|
+else(ไม่มี) 
+endif
+else(ไม่มี) 
+endif
+else(ไม่มี) 
+endif
 |Robot|
 end
-endif
-
 @enduml

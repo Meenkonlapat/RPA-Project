@@ -1,0 +1,14 @@
+@startuml
+|User|
+start
+:เปิดไฟล์ POS;
+|System|
+:หาที่อยู่ไฟล์ POS
+|User|
+:กดเปิด;
+:กรอกข้อมูล;
+:กดเซฟ
+|System|
+:กดเซฟ;
+stop
+@enduml

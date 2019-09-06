@@ -1,0 +1,12 @@
+@startuml
+|Project Manager|
+start
+:เปิด Direct;
+|System|
+:แสดงหน้าต่าง Direct>
+|Project Manager|
+:Upload ไฟล์ POS;
+|System|
+:รับไฟล์ POS;
+stop
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+|Project Manager|
+start
+:เปิด Microsoft Excel;
+:กดเซฟ;
+|System|
+:แสดงหน้าต่างเซฟ;
+:ตั้งชื่อไฟล์ POS;
+:กดเซฟ;
+stop
+@enduml

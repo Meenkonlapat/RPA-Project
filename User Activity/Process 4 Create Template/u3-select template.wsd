@@ -1,10 +1,10 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 |System|
 :ปรากฎ List Templete>
-|User|
+|Service Admin|
 :คลิกขวาที่ Templete ที่เลือก;
 :เลือก Create Project;
 stop

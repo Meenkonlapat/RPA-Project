@@ -1,9 +1,9 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 :แสดง Project Template Create>
-|User|
+|Service Admin|
 :กรอกข้อมูลจากหน้า Project Profile<
 :กด Save;
 stop

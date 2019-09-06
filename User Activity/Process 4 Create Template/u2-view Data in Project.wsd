@@ -1,9 +1,9 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 :แสดง List Project ในหน้า Project>
-|User|
+|Service Admin|
 :คลิกซ้ายที่โปรเจค;
 |System|
 :แสดง Project Profile>

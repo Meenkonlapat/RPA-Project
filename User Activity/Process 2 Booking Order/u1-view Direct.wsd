@@ -1,0 +1,9 @@
+@startuml
+|User|
+|System|
+start
+:แสดงหน้าต่าง Direct>
+|User|
+:ดู Direct;
+stop
+@enduml

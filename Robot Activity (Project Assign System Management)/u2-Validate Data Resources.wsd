@@ -1,7 +1,11 @@
 @startuml
 |Robot|
 start
-:เลือกไฟล์ Excel;
+:เปิดไฟล์ Excel;
+|System|
+:แสดงหน้าต่าง Excel>
+|Robot|
+:อ่านข้อมูลใน Excel;
 if (เช็คข้อมูลว่าตรงตาม Pattern ไหม?) then (ตรง)
     : เก็บข้อมูลใน Excel;
     : ส่งข้อมูลเข้าระบบ;
