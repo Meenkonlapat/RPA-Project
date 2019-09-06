@@ -1,19 +1,19 @@
 @startuml
-|User|
+|Service Admin|
 start
 :เปิด Browser Aplication;
 :ใส่ Url;
 |System|
 :แสดงหน้า Web Broswer>
-|User|
+|Service Admin|
 :คลิกที่ E-applications;
 |System|
 :แสดงหน้า E-application>
-|User|
+|Service Admin|
 :เลือก PPMS;
 |System|
 :แสดงหน้า Login>
-|User|
+|Service Admin|
 repeat
 :กรอก Username & Password;
 :คลิก Login;

@@ -1,22 +1,24 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 :แสดงหน้า PPMS>
-|User|
+|Service Admin|
 :คลิกที่แถบเมนู Service;
 :เลือก Contracts;
 |System|
-:ปรากฎไฟล์ Client(SO. Item) ที่มาจาก SAP>
-|User|
+:ปรากฎข้อมูลลูกค้า ที่มาจาก SAP>
+|Service Admin|
 :ใส่เลข SO. ที่ช่อง Search <
 :คลิก Filter;
 |System|
-:ปรากฎ SO. Item ที่ต้องการจะ Create Project>
-|User|
+:ปรากฎบริษัทลูกค้า>
+|Service Admin|
 :คลิกที่ไฟล์ SAP Client GT;
-:คลิกที่ SO. Item;
+:คลิกที่บริษัท;
 :คลิกที่ปุ่ม Action ทางด้านขวา;
 :เลือก Create Contracts;
+:ใส่ข้อมูล Contract ที่นำมาจาก POS <
+:กด Save;
 stop
 @enduml

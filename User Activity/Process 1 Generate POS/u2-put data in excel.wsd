@@ -1,14 +1,12 @@
 @startuml
-|User|
+|Project Manager|
 start
 :เปิดไฟล์ POS;
 |System|
-:หาที่อยู่ไฟล์ POS
-|User|
+:หาที่อยู่ไฟล์ POS;
+|Project Manager|
 :กดเปิด;
 :กรอกข้อมูล;
-:กดเซฟ
-|System|
 :กดเซฟ;
 stop
 @enduml

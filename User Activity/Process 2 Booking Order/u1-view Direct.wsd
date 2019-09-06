@@ -1,9 +1,9 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 :แสดงหน้าต่าง Direct>
-|User|
+|Service Admin|
 :ดู Direct;
 stop
 @enduml

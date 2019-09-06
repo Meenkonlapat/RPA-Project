@@ -1,19 +1,19 @@
 @startuml
-|User|
+|Service Admin|
 |System|
 start
 :แสดงหน้า PPMS>
-|User|
+|Service Admin|
 :คลิกที่แถบเมนู Service;
 :เลือก Contracts;
 |System|
 :ปรากฎข้อมูลลูกค้า ที่มาจาก SAP>
-|User|
+|Service Admin|
 :ใส่เลข SO. ที่ช่อง Search <
 :คลิก Filter;
 |System|
 :ปรากฎบริษัทลูกค้า>
-|User|
+|Service Admin|
 :คลิกที่ไฟล์ SAP Client GT;
 :คลิกที่บริษัท;
 :คลิกที่ขวาที่ Contract ที่ต้องการจะสร้าง;
