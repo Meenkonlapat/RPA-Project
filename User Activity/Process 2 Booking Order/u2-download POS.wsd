@@ -1,9 +1,9 @@
 @startuml
-|Service Admin|
+|Administrator|
 |System|
 start
-:แสดงหน้าต่าง Direct>
-|Service Admin|
-:กด Download POS จาก Direct;
+:Show Direct Window>
+|Administrator|
+:Click Download POS From Direct;
 stop
 @enduml

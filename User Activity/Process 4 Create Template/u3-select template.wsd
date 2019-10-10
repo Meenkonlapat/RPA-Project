@@ -1,11 +1,11 @@
 @startuml
-|Service Admin|
+|Administrator|
 |System|
 start
 |System|
-:ปรากฎ List Templete>
-|Service Admin|
-:คลิกขวาที่ Templete ที่เลือก;
-:เลือก Create Project;
+:Show List Templete>
+|Administrator|
+:Right Click on Templete at chose;
+:Choose Create Project;
 stop
 @enduml

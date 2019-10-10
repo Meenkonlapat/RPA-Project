@@ -1,16 +1,16 @@
 @startuml
-|Service Admin|
+|Administrator|
 start
-:เปิด Application PPMS;
+:Open Application PPMS;
 |System|
-:ปรากฎหน้าต่าง PPMS>
-|Service Admin|
-:คลิกที่แถบ General;
-:เลือก Project;
-:คลิกที่ช่องค้นหา;
-:พิมพ์ว่า "Template";
-:คลิก Filter;
+:Show PPMS Window>
+|Administrator|
+:Click General Tab;
+:Choose Project;
+:Click on Search Inputbox;
+:Fill "Template";
+:Click Filter;
 |System|
-:ปรากฎ List ของ Template>
+:Show List ofTemplate>
 stop
 @enduml

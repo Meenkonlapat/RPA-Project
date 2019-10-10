@@ -1,20 +1,20 @@
 @startuml
 |Robot|
 start
-:เปิดไฟล์ Excel;
+:Open Excel File;
 |System|
-:แสดงหน้าต่าง Excel>
+:Show Excel Window>
 |Robot|
-:อ่านข้อมูลใน Excel;
-if (เช็คข้อมูลว่าตรงตาม Pattern ไหม?) then (ตรง)
-    : เก็บข้อมูลใน Excel;
-    : ส่งข้อมูลเข้าระบบ;
+:Read Excel File;
+if (Checking Format) then (Correct)
+    : Get Data From Excel;
+    : Remember Value;
 |System|
-    : รับค่าข้อมูล;
-else (ไม่ตรง)
+    : Handle Value;
+else (Incorrect)
 |Robot|    
-    end
-|System|
+end
 endif
+|System|
 stop
 @enduml

@@ -1,12 +1,12 @@
 @startuml
 |Robot|
 start
-:ส่งข้อมูล Status Exception;
+:Send Status Exception;
 |System|
-:ดึงข้อมูล Status Exception;
+:Handle Status Exception;
 |Robot|
 if(Status Check) then (Success)
-:แจ้งเตือนไปยัง Email ว่า "RPA Error";
+:แจ้งเตือนไปยัง Email ว่า "RPA Error{ErrorException}";
 else(Failed)
 :แจ้งเตือนไปยัง Email ว่า "RPA Success";
 endif

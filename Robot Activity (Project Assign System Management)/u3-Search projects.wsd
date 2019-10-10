@@ -1,17 +1,17 @@
 @startuml
 |Robot|
 start
-:เปิด Application PPMS;
+:Open Application PPMS;
 |System|
-:ปรากฎหน้าต่าง PPMS>
+:Show PPMS Window>
 |Robot|
-:คลิกที่ช่อง Search;
-:ใส่เลขข้อมูลลงไปใน ช่อง Search<
-:คลิก Filter;
-if(หาเจอไหม?) then (เจอ)
+:Click on Search Inputbox;
+:Put SO Number in Inputbox<
+:Click Filter;
+if(Find SO Number?) then (Found)
 |System|
-:แสดง Project ที่ค้นหา>
-else(ไม่เจอ)
+:Show Project on Search>
+else(Not Found)
 |Robot|
 end
 |System|

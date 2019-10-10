@@ -1,22 +1,22 @@
 @startuml
 |Robot|
 start
-:หาที่อยู่ข้อมูลในคอมพิวเตอร์;
-if(มีไฟล์ที่อยู่ข้อมูลไหม?) then(มี) 
+:Find Path From Computer (In Config File);
+if(Have a path?) then(Have) 
 |System|
-:แสดงที่อยู่ไฟล์ข้อมูล>
+:Show Path>
 |Robot|
-if(มีไฟล์ Excel(.xlxs) ไหม) then(มี)
-if(มีเลข SO ไหม?) then(มี)
+if(Have Type Excel(.xlms)?) then(Have)
+if(Have SO Number?) then(Have)
 |System|
-:เก็บค่าเลข SO;
+:Get SO Number;
 stop
 |Robot|
-else(ไม่มี) 
+else(Not Have) 
 endif
-else(ไม่มี) 
+else(Not Have) 
 endif
-else(ไม่มี) 
+else(Not Have) 
 endif
 |Robot|
 end

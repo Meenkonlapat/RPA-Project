@@ -1,25 +1,25 @@
 @startuml
-|Service Admin|
+|Administrator|
 start
-:เปิด Browser Aplication;
-:ใส่ Url;
+:Open Browser Aplication;
+:Put Url;
 |System|
-:แสดงหน้า Web Broswer>
-|Service Admin|
-:คลิกที่ E-applications;
+:Show Web Broswer>
+|Administrator|
+:Click E-applications;
 |System|
-:แสดงหน้า E-application>
-|Service Admin|
-:เลือก PPMS;
+:Show E-application>
+|Administrator|
+:Choose PPMS;
 |System|
-:แสดงหน้า Login>
-|Service Admin|
+:Show Login>
+|Administrator|
 repeat
-:กรอก Username & Password;
-:คลิก Login;
-repeat while (เช็ค ข้อมูล) is (ไม่ถูกต้อง)
-->ถูกต้อง;
+:Fill Username & Password;
+:Click Login;
+repeat while (Data Checking) is (Incorrect)
+->Correct;
 |System|
-:แสดงหน้า Aplication PPMS>
+:Show Aplication PPMS>
 stop
 @enduml

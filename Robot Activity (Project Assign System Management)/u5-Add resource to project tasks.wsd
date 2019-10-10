@@ -4,23 +4,15 @@
 start
 |Robot|
 |System|
-:แสดงหน้าต่าง worksheet>
+:Show Worksheet Window>
 |Robot|
-:คลิกเลือก Task;
-:คลิกที่ Icon New Task assignment;
+:Choose Task;
+:Click Icon New Task assignment;
 |System|
-:ปรากฎ text input ใน Task ที่เลือก>
+:Show text input below that task>
 |Robot|
-if(เลือกการ add) then (กรอก)
-:กรอกชื่อที่ได้มาจาก resource <
-:กด Enter;
-else
-:เลือกจาก dropdown;
-|System|
-:ปรากฎชื่อให้เลือก>
-:คลิกเลือกชื่อ; 
-endif
-|Robot|
-:คลิก Icon Save;
+:Fill resource <
+:Press Enter; 
+:Click Icon Save;
 stop
 @enduml

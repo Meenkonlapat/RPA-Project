@@ -1,11 +1,11 @@
 @startuml
-|Service Admin|
+|Administrator|
 |System|
 start
-:แสดง List Project ในหน้า Project>
-|Service Admin|
-:คลิกซ้ายที่โปรเจค;
+:Show List Project in Project Page>
+|Administrator|
+:Click on Project;
 |System|
-:แสดง Project Profile>
+:Show Project Profile>
 stop
 @enduml

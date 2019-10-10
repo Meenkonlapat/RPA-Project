@@ -1,10 +1,10 @@
 @startuml
-|Service Admin|
+|Administrator|
 |System|
 start
-:แสดง Project Template Create>
-|Service Admin|
-:กรอกข้อมูลจากหน้า Project Profile<
-:กด Save;
+:Show Project Template Create>
+|Administrator|
+:Fill Data From Project Profile Page<
+:Click Save;
 stop
 @enduml

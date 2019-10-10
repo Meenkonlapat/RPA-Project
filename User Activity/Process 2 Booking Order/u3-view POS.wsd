@@ -1,10 +1,10 @@
 @startuml
-|Service Admin|
+|Administrator|
 start
-:เปิดไฟล์ POS;
+:Open POS;
 |System|
-:แสดงไฟล์ POS>
-|Service Admin|
-:ดูไฟล์ POS;
+:Show File POS>
+|Administrator|
+:View File POS;
 stop
 @enduml
